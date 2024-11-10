@@ -1,3 +1,5 @@
+// Task 1: Create the Asset Module
+
 // Define an array of financial assets
 
 export const assets = [
