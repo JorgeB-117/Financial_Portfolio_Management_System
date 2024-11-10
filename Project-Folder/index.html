@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financial Portfolio Management System</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Financial Portfolio Management System</h1>
+
+        <section id="portfolio-summary">
+            <h2>Portfolio Summary</h2>
+            <div id="total-value"></div>
+            <div id="asset-breakdown"></div>
+        </section>
+
+        <section id="asset-list">
+            <h2>Assets</h2>
+            <table id="assets-table">
+                <thead>
+                    <tr>
+                        <tr text-align="center"></tr>
+                        <th text-align="center" style="width:15%">Company Name</th>
+                        <th text-align="center" style="width:15%">Type of Asset</th>
+                        <th text-align="center" style="width:15%">Price of Assets</th>
+                        <th text-align="center" style="width:15%">Quantity of Assets</th>
+                        <th text-align="center" style="width:15%">Total Value of Assets</th>
+                    </tr>
+                </thead>
+                <tbody id="assets-body"></tbody>
+            </table>
+        </section>
+
+        <section id="transaction-log">
+            <h2>Transaction Log</h2>
+            <div id="transactions"></div>
+        </section>
+    </div>
+
+    <script type="module" src="./main.js"></script>
+</body>
+</html>
